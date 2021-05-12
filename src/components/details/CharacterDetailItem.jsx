@@ -5,13 +5,15 @@ function CharacterDetailItem({
   character: { name, status, species, location, image },
 }) {
   return (
-    <div>
-      <h2>{name}</h2>
-      <p>{status}</p>
-      <p>{species}</p>
-      <p>{location}</p>
-      <img alt={name} src={image} />
-    </div>
+    <ul aria-label="character">
+      <li>
+        <h2>{name}</h2>
+        <p>{status}</p>
+        <p>{species}</p>
+        <p>{location}</p>
+        <img alt={name} src={image} />
+      </li>
+    </ul>
   );
 }
 

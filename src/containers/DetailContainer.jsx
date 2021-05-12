@@ -19,6 +19,7 @@ export default class DetailContainer extends Component {
     const { character } = this.state;
     return (
       <div>
+        <h1>Details Page</h1>
         <CharacterDetailItem character={character} />
       </div>
     );
