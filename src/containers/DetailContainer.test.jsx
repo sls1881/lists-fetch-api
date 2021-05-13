@@ -3,8 +3,8 @@ import { render, screen } from '@testing-library/react';
 import DetailContainer from './DetailContainer';
 
 describe('Rick and Morty API', () => {
-  it.skip('should render Rick and Morty character data', async () => {
-    render(<DetailContainer />);
+  it('should render Rick and Morty character data', async () => {
+    render(<DetailContainer match={{ params: { character: '' } }} />);
 
     screen.getByText('Details Page');
 

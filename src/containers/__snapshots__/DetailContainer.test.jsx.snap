@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rick and Morty API should render Rick and Morty character data 1`] = `
+<ul
+  aria-label="character"
+>
+  <li>
+    <h2 />
+    <p />
+    <p />
+    <p />
+    <img />
+  </li>
+</ul>
+`;
