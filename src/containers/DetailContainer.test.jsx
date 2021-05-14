@@ -4,7 +4,7 @@ import DetailContainer from './DetailContainer';
 
 describe('Rick and Morty API', () => {
   it('should render Rick and Morty character data', async () => {
-    render(<DetailContainer match={{ params: { character: '' } }} />);
+    render(<DetailContainer match={{ params: { character: {} } }} />);
 
     screen.getByText('Details Page');
 
